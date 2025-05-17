@@ -5,26 +5,30 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: hsl(47, 88%, 63%);
 }
-.card{
+
+.card {
     width: 385px;
-    background-color: hsl(0, 0%, 100%) ;
+    background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
     border: 1px solid black;
     box-shadow: 9px 9px 0px black;
-       font-family: Figtree;
+    font-family: Figtree;
 }
-.img{
-  margin: 25px ;
-  border-radius: 15px;
+
+.img {
+    margin: 25px;
+    border-radius: 15px;
 }
-.text{
+
+.text {
     width: 80px;
     height: 30px;
     background-color: hsl(47, 88%, 63%);
@@ -32,33 +36,38 @@ body{
     margin-left: 25px;
     border-radius: 8px;
 }
-h1{
+
+h1 {
     font-size: 15px;
     padding-top: 5px;
 }
-h2{
+
+h2 {
     font-size: 14px;
     padding: 15px 25px;
     color: hsl(0, 0%, 7%);
 }
-h3{
+
+h3 {
     font-size: 25px;
     padding-left: 25px;
     color: hsl(0, 0%, 7%);
     font-weight: 800;
 }
-p{
+
+p {
     font-size: 16px;
-    padding: 25px  25px 0;
+    padding: 25px 25px 0;
     color: hsl(0, 0%, 42%);
 }
 
-.avatar{
+.avatar {
     width: 40px;
     height: 40px;
     margin: 20px 0 10px 25px;
 }
-h4{
+
+h4 {
     display: inline;
     font-size: 16px;
     padding-bottom: 10px;
