@@ -64,11 +64,13 @@ p {
 .avatar {
     width: 40px;
     height: 40px;
-    margin: 20px 0 10px 25px;
+    margin: 20px 0 20px 25px;
 }
-
+.profile{
+    display: flex;
+    text-align: center;
+}
 h4 {
-    display: inline;
     font-size: 16px;
-    padding-bottom: 10px;
+    padding: 30px 15px;
 }
